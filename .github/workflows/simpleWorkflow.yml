@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: step in self-hosted runner
         id: selfHostedId
-        shell: bash
+        shell: pwsh
         run: |
           echo this is a multi-line comment
           echo and this job has been executed from my self-hosted runner
